@@ -1,6 +1,10 @@
+*{
+    color: #ffffff;
+    font-size: 18px;
+}
+
 body{
     background-color: #000;
-
 }
 
 
@@ -28,8 +32,8 @@ body{
 
 .efeito:hover{
     cursor: pointer;
-    transition-duration: 1s;
-    transform: scale(1.1 , 1.1);
+    transition-duration: 500ms;
+    transform: scale(1.1);
 }
 
 .nome{
@@ -46,4 +50,8 @@ iframe{
     position: absolute;
     left: 0;
     right: 0;
+}
+
+.efeito{
+    margin-top: 20px;
 }
